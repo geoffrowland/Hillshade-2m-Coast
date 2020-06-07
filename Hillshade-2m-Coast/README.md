@@ -1,1 +1,0 @@
-# Hillshade-2m-Coast
