@@ -71,14 +71,14 @@
 		tms: true, 
 		opacity: 1.0, 
 		attribution: "OGL &copy; Environment Agency copyright and/or database right 2020",
-		minZoom: 9,
+		minZoom: 11,
 		maxNativeZoom: 15
 		//bounds: L.latLngBounds([[49.859235, -10.722656],[60.930432, 5.625000]])
 	});
         var lyr20 = L.tileLayer('https://geoffrowland.github.io/Hillshade-5m/{z}/{x}/{y}.png', {
 		tms: true, 
 		opacity: 1.0,
-		minZoom: 9,
+		minZoom: 11,
 		attribution: "&copy; Crown copyright and database rights 2020 Ordnance Survey (100025252)",
 		maxNativeZoom: 15
 	});
@@ -92,7 +92,7 @@
 		tms: true, 
 		opacity: 1.0, 
 		attribution: "OGL &copy; Environment Agency copyright and/or database right 2019 All rights reserved",
-		minZoom: 9,
+		minZoom: 16,
 		bounds: L.latLngBounds([[49.86, -6.43],[50.77, -4.48]]),
 		maxNativeZoom: 16
 	});
@@ -100,70 +100,70 @@
 		tms: true, 
 		opacity: 1.0, 
 		attribution: "OGL &copy; Environment Agency copyright and/or database right 2019 All rights reserved",
-		minZoom: 9,
+		minZoom: 16,
 		maxNativeZoom: 16
 	});
 	var lyr11 = L.tileLayer('https://geoffrowland.github.io/Hillshade-1m-Devon-Dorset-Somerset/{z}/{x}/{y}.png', {
 		tms: true, 
 		opacity: 1.0, 
 		attribution: "OGL &copy; Environment Agency copyright and/or database right 2019 All rights reserved",
-		minZoom: 9,
+		minZoom: 16,
 		maxNativeZoom: 16
 	});
 	var lyr4 = L.tileLayer('https://geoffrowland.github.io/Hillshade-50cm-Dorset-East/{z}/{x}/{y}.png', {
 		tms: true, 
 		opacity: 1.0, 
 		attribution: "OGL &copy; Environment Agency copyright and/or database right 2019 All rights reserved",
-		minZoom: 11,
+		minZoom: 16,
 		maxNativeZoom: 17
 	});
 	var lyr5 = L.tileLayer('https://geoffrowland.github.io/Hillshade-50cm-Dorset-West/{z}/{x}/{y}.png', {
 		tms: true, 
 		opacity: 1.0, 
 		attribution: "OGL &copy; Environment Agency copyright and/or database right 2019 All rights reserved",
-		minZoom: 11,
+		minZoom: 17,
 		maxNativeZoom: 17
 	});
 	var lyr6 = L.tileLayer('https://geoffrowland.github.io/Hillshade-2m/{z}/{x}/{y}.png', {
 		tms: true, 
 		opacity: 1.0, 
 		attribution: "OGL &copy; Environment Agency copyright and/or database right 2019 All rights reserved",
-		minZoom: 9,
+		minZoom: 11,
 		maxNativeZoom: 15
 	});
 	var lyr8 = L.tileLayer('https://geoffrowland.github.io/Hillshade-1m-Dorset-Somerset/{z}/{x}/{y}.png', {
 		tms: true, 
 		opacity: 1.0, 
 		attribution: "OGL &copy; Environment Agency copyright and/or database right 2019 All rights reserved",
-		minZoom: 9,
+		minZoom: 16,
 		maxNativeZoom: 16
 	});
 	var lyr7 = L.tileLayer('https://geoffrowland.github.io/Hillshade-1m-Dorset-Somerset-East/{z}/{x}/{y}.png', {
 		tms: true, 
 		opacity: 1.0, 
 		attribution: "OGL &copy; Environment Agency copyright and/or database right 2019 All rights reserved",
-		minZoom: 9,
+		minZoom: 16,
 		maxNativeZoom: 16
 	});
 	var lyr10 = L.tileLayer('https://geoffrowland.github.io/Hillshade-1m-Dorset-Hampshire/{z}/{x}/{y}.png', {
 		tms: true, 
 		opacity: 1.0, 
 		attribution: "OGL &copy; Environment Agency copyright and/or database right 2019 All rights reserved",
-		minZoom: 9,
+		minZoom: 16,
 		maxNativeZoom: 16
 	});
 	var lyr9 = L.tileLayer('https://geoffrowland.github.io/LIDAR-DTM-1M-Somerset/{z}/{x}/{y}.png', {
 		tms: true, 
 		opacity: 1.0, 
 		attribution: "OGL &copy; Environment Agency copyright and/or database right 2019 All rights reserved",
-		minZoom: 10,
+		minZoom: 16,
 		maxNativeZoom: 16
 	});
         // Map
         var map = L.map('map', {
 	    fullscreenControl: true,
             center: [50.65, -2.5],
-            zoom:10,
+            zoom:11,
             minZoom: 4,
             maxZoom: 18,
             layers: [osm,lyr1]
