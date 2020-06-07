@@ -75,28 +75,13 @@
 		maxNativeZoom: 15
 		//bounds: L.latLngBounds([[49.859235, -10.722656],[60.930432, 5.625000]])
 	});
-        var lyr10 = L.tileLayer('https://geoffrowland.github.io/Hillshade-5m-East/{z}/{x}/{y}.png', {
+        var lyr20 = L.tileLayer('https://geoffrowland.github.io/Hillshade-5m/{z}/{x}/{y}.png', {
 		tms: true, 
 		opacity: 1.0,
 		minZoom: 9,
 		attribution: "&copy; Crown copyright and database rights 2020 Ordnance Survey (100025252)",
 		maxNativeZoom: 15
 	});
-        var lyr11 = L.tileLayer('https://geoffrowland.github.io/Hillshade-5m-West/{z}/{x}/{y}.png', {
-		tms: true, 
-		opacity: 1.0,
-		minZoom: 9,
-		attribution: "&copy; Crown copyright and database rights 2020 Ordnance Survey (100025252)",
-		maxNativeZoom: 15
-	});
-        var lyr12 = L.tileLayer('https://geoffrowland.github.io/Hillshade-5m-Cornwall/{z}/{x}/{y}.png', {
-		tms: true, 
-		opacity: 1.0,
-		minZoom: 9,
-		attribution: "&copy; Crown copyright and database rights 2020 Ordnance Survey (100025252)",
-		maxNativeZoom: 15
-	})		
-	var lyr13 = L.layerGroup([lyr10, lyr11, lyr12]);
         var lyr2 = L.tileLayer('https://geoffrowland.github.io/Hillshade-25m/{z}/{x}/{y}.png', {
 		tms: true, 
 		opacity: 1.0, 
@@ -190,7 +175,7 @@
 	}
         var overlaymaps = {
 		"25m": lyr2, 
-		"5m": lyr13, 
+		"5m": lyr20, 
 		"Surf": lyr1, 
 		"2m": lyr6, 
 		"1m Cornwall": lyr14, 
